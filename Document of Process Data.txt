@@ -1,0 +1,21 @@
+use 6 month of bike share data
+clean data by
+-remove all row that's incomplete.
+>>do in python,pandas >> 4273506 rows to 3320314 rows
+-remove duplicate data
+>>do in python,pandas  >> not found
+-remove outdate data
+>>do in python,pandas  >> not found
+-correct the incorrect data
+>>do in python,pandas  >> change dtype of started_at and ended_at to datetime64
+-organize inconsistent data
+>>nothing found
+
+manipulate data by
+-add duration of trip in new column
+-delete rows that trip duration more than 1500min
+-delete rows that trip duration <= 0 mins
+-delete rows that trip duration more than 300min
+-add day of week column
+
+
